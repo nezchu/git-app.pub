@@ -1,0 +1,23 @@
+{
+  "name": "git-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development electron .",
+    "build": "NODE_ENV=production electron-builder"
+  },
+  "build": {
+    "appId": "git-app",
+    "mac": {
+      "category": "git-app"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>GitHub</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body style="-webkit-app-region: drag">
+    <div id="gh-issues" class="gh-issues__wrapper">
+      <h3 class="gh-issues__title" id="gh-issues__title">Issues</h3>
+      <div id="gh-issues__inner"></div>
+      <span id="reload-button" class="reload-button"><p>reload</p></span>
+    </div>
+    <script>
+      window.api.github.initialize();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+  background: rgba(211, 211, 211, 0);
+  font-family: Hiragino Kaku Gothic ProN;
+}
+.gh-issues__wrapper {
+  background: rgba(180, 180, 180, 0.747);
+  position: relative;
+  border-radius: 3px;
+}
+.gh-issues__title {
+  padding: 8px;
+  margin: 0;
+  color: #fff;
+}
+.gh-issue {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 8px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  cursor: pointer;
+}
+.gh-issue:hover {
+  background: rgba(201, 201, 201, 0.596);
+}
+.gh-issue__title {
+  margin: 0;
+}
+.gh-issue__milestone {
+  margin: 0;
+}
+.reload-button {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  text-align: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 0 20px;
+  background: rgba(180, 180, 180, 0.747);
+  cursor: pointer;
+}
+.reload-button p {
+  margin: 0;
+  color: #fff;
+}
