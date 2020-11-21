@@ -1,4 +1,4 @@
-# git-app.pub
+# git-app
 
 【Electron入門】GithubのIssueを一瞬で確認できるアプリを作って業務効率化してみた #1 Alfredっぽいwindow作成編
 https://qiita.com/ikkei12/items/cba90ac057e8f0a9c2c5
